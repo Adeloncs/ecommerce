@@ -1,0 +1,19 @@
+{
+    "name": "Adeloncs/ecommerce",
+    "authors": [
+        {
+            "name": "Adelon Carneiro da Silva",
+            "email": "adeloncs@hotmail.com.br"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\Adeloncs\\php-classes\\src"
+        }
+    }
+}
